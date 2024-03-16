@@ -1,0 +1,9 @@
+{
+    "short_name": "digital-clock",
+    "name": "Relógio Digital",
+    "theme_color": "#000",
+    "background_color": "#000",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/"
+}
