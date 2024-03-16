@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import NoSleep from 'nosleep.js'
 
 import './App.css'
 
@@ -26,9 +25,6 @@ export default function App() {
 	const [currentTime, setCurrentTime] = useState(getCurrentTime())
 
 	useEffect(() => {
-		const noSleep = new NoSleep()
-		noSleep.enable()
-
 		setInterval(() => {
 			setCurrentTime(getCurrentTime())
 		}, 1000)

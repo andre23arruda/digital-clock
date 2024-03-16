@@ -1,6 +1,6 @@
 {
-    "short_name": "web-velocimeter",
-    "name": "Velocímetro WEB",
+    "short_name": "digital-clock",
+    "name": "Relógio Digital",
     "theme_color": "#444",
     "background_color": "#444",
     "display": "standalone",
